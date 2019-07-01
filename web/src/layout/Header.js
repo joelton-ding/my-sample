@@ -18,7 +18,7 @@ const HeaderMenu = observer(({ menuData }) => {
           >
             <a
               href={item.url}
-              onMouseOver={() => {
+              OnClick={() => {
                 MenuStore.actions.FirstLevelClick(item.title)
               }}
             >{item.title}</a>
@@ -53,7 +53,7 @@ const MenuSecond = observer(({ item }) => {
       >
         <a
           href={finalUrl}
-          onMouseOver={() => { MenuStore.actions.SecondLevelClick(obj.title) }}
+          onClick={() => { MenuStore.actions.SecondLevelClick(obj.title) }}
         >{obj.title}</a>
         {
           iconStyle === 'open' &&

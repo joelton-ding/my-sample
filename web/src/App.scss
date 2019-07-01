@@ -35,7 +35,6 @@ header {
           list-style: none;
           float: left;
           position: relative;
-          padding: 10px 20px;
           &:hover {
             background: #3c58a7;
           }
@@ -45,6 +44,8 @@ header {
           a {
             color: #fff;
             font-size: 16px;
+            padding: 10px 20px;
+            display: block;
           }
           .nav-sub {
             background: #5b78c7;
@@ -119,13 +120,25 @@ header {
 }
 
 
-
-
 // Content
 .content {
   max-width: 1180px;
   padding: 10px;
   margin: 0 auto;
+}
+.table-add-email {
+  width: 100%;
+  tr {
+    td {
+      &:first-child {
+        font-weight: 600;
+        text-align: right;
+        padding-right: 5px;
+        width: 10%;
+      }
+      padding: 5px 0;
+    }
+  }
 }
 
 // Footer
@@ -138,6 +151,8 @@ footer {
   margin: 0 auto;
   color: #fff;
 }
+
+
 
 @media screen and (max-width: 999px) {
   nav {
@@ -351,8 +366,6 @@ footer {
       }
     }
   }
-
-  
 }
 
 

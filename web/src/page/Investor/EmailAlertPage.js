@@ -1,11 +1,20 @@
 import React from 'react';
+import Header from '../../layout/Header'
+import Banner from './Banner'
+import Footer from '../../layout/Footer'
+import EmailAlert from './EmailAlert/EmailAlert'
 
 const EmailAlertPage = () => {
   return (
-    <div>
-      Please fill up your details below to receive email alerts.
-    </div>
+    <React.Fragment>
+      <Header />
+      <Banner />
+      <EmailAlert />
+      <Footer />
+    </React.Fragment>
   )
 }
 
 export default EmailAlertPage
+
+

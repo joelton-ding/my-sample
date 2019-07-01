@@ -6,12 +6,12 @@ import AboutUs from './AboutUs/AboutUs'
 
 const AboutUsPage = () => {
   return (
-    <div>
+    <React.Fragment>
       <Header />
       <Banner />
       <AboutUs />
       <Footer />
-    </div>
+    </React.Fragment>
   )
 }
 
