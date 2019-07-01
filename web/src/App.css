@@ -1,0 +1,8 @@
+.fp-controlArrow.fp-prev {
+
+  background: url('/images/icon-back-left-white.png') no-repeat;
+  width: 512px;
+  height: 512px;
+  border: 0;
+  border: 1px solid red;
+}

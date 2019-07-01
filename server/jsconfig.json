@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "checkJs": true
+    },
+    "include": [
+        "src/**/*",
+        "sample/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

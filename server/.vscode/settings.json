@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "editor.tabSize": 2
+}

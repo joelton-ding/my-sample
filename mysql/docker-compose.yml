@@ -1,0 +1,22 @@
+version: "2.0"
+
+services:
+  mysql:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    restart: unless-stopped
+    networks:
+      - infranet
+    environment:
+       - MYSQL_DATABASE=bio
+       - MYSQL_ROOT_PASSWORD=root
+       - MYSQL_USER=biodbuser
+       - MYSQL_PASSWORD=biodbuser_12345
+    volumes:
+     - ./data:/var/lib/mysql
+     - ./custom/my.cnf:/etc/my.cnf
+     - ./init:/docker-entrypoint-initdb.d
+networks:
+  infranet:
+    external: true

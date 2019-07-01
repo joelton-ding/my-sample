@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es6"
+        ],
+        "target": "es6",
+        "module": "es6",
+        "outDir": "src/entities",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": false,
+        "noImplicitAny": true,
+        "declaration": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "stripInternal": true,
+        "pretty": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true
+    },
+    "include": [
+        "model/*.ts"
+    ],
+    "exclude": [
+        "lib",
+        "node_modules"
+    ]
+}

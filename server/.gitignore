@@ -1,0 +1,11 @@
+coverage
+node_modules
+doc/
+lib
+dist
+entities
+.idea
+.nyc_output
+*.log
+.DS_Store
+*.tar

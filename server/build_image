@@ -1,0 +1,3 @@
+rm  common.tar 
+docker build -t common:0.0.2 . --no-cache
+docker save  common:0.0.2 > common.tar

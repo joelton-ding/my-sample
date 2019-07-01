@@ -1,0 +1,17 @@
+.DS_Store
+.git
+.idea
+.vscode
+*.lock
+*.log
+*.tgz
+env.properties
+jsconfig.json
+project.yaml
+tsconfig.json
+coverage
+__tests__
+src
+model
+sample
+doc

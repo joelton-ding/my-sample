@@ -1,0 +1,41 @@
+# Base config that is mixed in by the others.
+base:
+  LOG_LEVEL: debug
+  EMIT_STACK_TRACE: false
+  DOCKER_CONFIG_FILE: 'env.properties'
+  Synchronize: true
+  Database: common
+  HasDB: true
+  SQL_Logging: true
+  BASE_DIR: dist
+  PUBLIC_DIR: /tmp/
+  DOWNLOAD_DIR: /tmp/
+  WE_DIR: ../../web/build
+  REG_EVENT: true
+  frequency: 10
+
+# Development environment.
+development:
+  ~compose: base
+  LOG_LEVEL: trace
+  # In development it can be useful to get the error stack.
+  EMIT_STACK_TRACE: false
+  SQL_Logging: true
+  REG_EVENT: false
+  BASE_DIR: app
+
+# Running tests
+test:
+  # Test environment is based on development.
+  ~compose: development
+  # Disable logging for tests
+  LOG_LEVEL: off
+
+# Production environment.
+production:
+  # Production environment is based on development.
+  ~compose: base
+  Synchronize: false
+  WE_DIR: /web/build 
+  DOCKER_CONFIG_FILE: 'env.properties'
+  ID_Generator_URL: 'http://idgenerator/next'
