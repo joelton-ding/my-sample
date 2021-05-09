@@ -48,7 +48,7 @@
     "koa-respond": "^1.0.1",
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.3",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "mysql": "^2.15.0",
     "nodemailer": "^5.0.0",
     "properties": "^1.2.1",
