@@ -4124,9 +4124,9 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-nodemailer@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-5.0.1.tgz#39590e1d324512f641de3756f44f87f051266520"
+nodemailer@^6.4.16:
+  version "6.4.16"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.4.16.tgz#5cb6391b1d79ab7eff32d6f9f48366b5a7117293"
 
 nodemon@^1.17.5:
   version "1.18.9"
