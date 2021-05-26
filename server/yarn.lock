@@ -1765,8 +1765,8 @@ diff@^3.2.0:
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
 
 dns-packet@^5.0.1:
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.0.4.tgz#2830b4630cef12b8c9ad9172843ac600527f31f7"
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.2.4.tgz#e004f409eadfa8ec861964dcb9eb395884fcf67d"
   dependencies:
     ip "^1.1.5"
 
